@@ -1,4 +1,70 @@
 name = Edgesilk
-description = Edgesilk is an premium Drupal 7 theme. Developed by <a href="http://www.qbeing.info">Irudayaraj</a>.
+description = Edgesilk is an premium Drupal 7 theme. Developed by <a href="http://www.krysallis.com">Raghu Krishnaswamy</a>.
 core = 7.x
-;version 1.2
+engine = phptemplate
+
+; STYLESHEETS
+;--------------------------------------------------
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/media.css
+
+; SCRIPTS 
+;--------------------------------------------------
+scripts[] = js/custom.js
+
+; REGIONS
+;--------------------------------------------------
+regions[header]         = Header - Inner Pages Only
+
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[slideshow]      = Slideshow
+regions[front_welcome]  = Front Welcome
+
+regions[content]        = Content
+regions[content_top]    = Content Top
+regions[top_first]		= First Top
+regions[top_second]		= Second Top
+regions[top_third]		= Third Top
+
+regions[help]           = Help
+regions[bottom]         = Bottom
+
+regions[footer]         = Footer
+regions[footer_first]   = First Bottom
+regions[footer_second]  = Second Bottom
+regions[footer_third]	= Third Bottom
+
+; FEATURES
+;----------------------------------------------------
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; SETTINGS
+;----------------------------------------------------
+settings[footer_copyright]   = 1
+settings[footer_developed]   = 1
+settings[footer_developedby]   = Raghu
+settings[footer_developedby_url]   = http://in.linkedin.com/in/raghu
+settings[slideshow_display]  = 1
+settings[display]        = 1
+settings[breadcrumbs]    = 1
+settings[social_links]  = 1
+
+settings[twitter_username]        = "edgesim"
+settings[facebook_username]       = "edgesim"
+settings[linkedin_username]       = "edgesim"
+settings[welcome_title]  = "Welcome to Edgesim"
+
+; Information added by drupal.org packaging script on 2013-07-01
+version = "7.x-1.0"
+core = "7.x"
+project = "edgesilk"
+datestamp = "1372682158"

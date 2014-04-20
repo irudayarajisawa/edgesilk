@@ -390,8 +390,8 @@ audio {
   position: relative;
   z-index: 11;
   top: -11px;
-  border-bottom: 2px solid rgb(251, 90, 2);
-  background: none repeat scroll 0 0 rgb(39, 39, 39);
+  border-bottom: 2px solid rgb(0,139,222);
+  background: none repeat scroll 0 0 rgb(0, 82, 134);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
   -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
   -moz-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03);
@@ -447,7 +447,7 @@ ul li, ul.menu li, ul.links li, .item-list ul li {
 #main-menu li a.active{
   color: #FFF;
   text-decoration: none;
-  background: none repeat scroll 0 0 rgb(251, 90, 2);
+  background: none repeat scroll 0 0 rgb(0, 82, 134);
 }
 #main-menu li li a.active{
   background: rgb(30, 39, 46);
@@ -1549,4 +1549,9 @@ ol.search-results { padding-left: 0; }
 }
 .social-icons li img {
   display: block;
+}
+
+.flink{
+   color: #008BDE;
+   text-align: center;
 }

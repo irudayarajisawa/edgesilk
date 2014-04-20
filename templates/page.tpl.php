@@ -69,15 +69,8 @@
   <div id="inner_header_wrapper">
 
     <header id="header" role="banner">
-      <?php if (theme_get_setting('social_links', 'edgesilk')): ?>
-      <div class="social-icons">
-       <ul>
-        <li><a href="<?php print $front_page; ?>/rss.xml"><img src="<?php print base_path() . drupal_get_path('theme', 'edgesilk') . '/images/rss.png'; ?>" alt="RSS Feed"/></a></li>
-        <li><a href="http://www.facebook.com/<?php echo theme_get_setting('facebook_username', 'edgesilk'); ?>" target="_blank" rel="me"><img src="<?php print base_path() . drupal_get_path('theme', 'edgesilk') . '/images/facebook.png'; ?>" alt="Facebook"/></a></li>
-        <li><a href="http://www.twitter.com/<?php echo theme_get_setting('twitter_username', 'edgesilk'); ?>" target="_blank" rel="me"><img src="<?php print base_path() . drupal_get_path('theme', 'edgesilk') . '/images/twitter.png'; ?>" alt="Twitter"/></a></li>
-       </ul>
-      </div>
-    <?php endif; ?>
+      
+      <?php /*Login Module*/?>
       <?php if ($logo): ?><div id="logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>"/></a></div>
       <?php endif; ?>
       <h1 id="site-title">
@@ -163,9 +156,11 @@
     <?php endif; ?>
   
 </div>
+  <div class="flink"><a href="http://www.mkt-edge.com/" target="_blank" class="flink">HOME</a>  |  <a href="/" class="flink">SIMULATION OVERVIEW</a>  |  <a href="simulation/interest" target="_parent" class="flink">REGISTER INTEREST</a> </div>
 
 <div id="footer">
   <div id="footer_wrapper">
+
     <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third']): ?> 
       <div id="footer-area" class="clearfix">
         <?php if ($page['footer_first']): ?>
@@ -189,7 +184,10 @@
    <?php endif; ?>
       
     <div id="copyright">
-     <p class="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?> </p> <p class="credits"> <?php print t('Theme by'); ?>  <a href="http://kryssalis.com/">Kryssalis.com</a></p>
+     <p class="copyright"><?php print t('EDGESim™ is a trademark of Market Edge. All rights reserved. Copyright'); ?> &copy; <?php echo date("Y"); ?>,
+          
+
+     <?php print $site_name; ?> </p> <p class="credits"> <?php print t('Theme by'); ?>  <a href="http://kryssalis.com/">Kryssalis.com</a></p>
     <div class="clear"></div>
     </div>
   </div>

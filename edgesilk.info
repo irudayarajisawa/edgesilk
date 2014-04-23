@@ -21,6 +21,7 @@ regions[sidebar_second] = Second Sidebar
 regions[slideshow]      = Slideshow
 regions[front_welcome]  = Front Welcome
 
+regions[page_top_right]		= Page Top
 regions[content]        = Content
 regions[content_top]    = Content Top
 regions[top_first]		= First Top

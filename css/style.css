@@ -1555,3 +1555,115 @@ ol.search-results { padding-left: 0; }
    color: #008BDE;
    text-align: center;
 }
+
+
+/************Login Form***************/
+.block-user-login{
+  float: right;
+  width: 40%;
+}
+
+.block-user-login h2 {
+  display: none;
+}
+
+.block-user-login #user-login-form input{
+  /*float: right;*/
+  background: none repeat-x scroll 0 0 #37578b;
+  color: #fff;
+}
+
+.block-user-login #user-login-form .form-item{
+  display:inherit;
+  float:left;
+  padding: 0px 4px 0px 4px;
+  font-family: 'Tahoma',arial,serif;
+  text-color: #ffffff;
+  color: #ffffff;
+  position: relative;
+  cursor: pointer;
+}
+
+#user-login-form .form-required {
+  display: none;
+}
+
+.block-user-login #user-login-form label {
+  position: absolute;
+  left: 8px;
+  top: 3px;
+  color: #d1d1d1;
+  cursor: default;
+  display: block;
+}
+
+.block-user-login #edit-name input:focus + label {
+  display: none;
+}
+
+.block-user-login #edit-name label:focus {
+  visibility:  hidden;
+  color: transparent;
+  text: none;
+  background: #008BDE;
+  display: none;
+}
+
+.block-user-login #edit-submit {
+  margin: 0;
+  background: -ms-linear-gradient(center top , rgb(51, 51, 51) 5%, rgb(0, 0, 0) 100%) repeat scroll 0% 0% transparent;
+  background: -moz-linear-gradient(center top , rgb(51, 51, 51) 5%, rgb(0, 0, 0) 100%) repeat scroll 0% 0% transparent;
+  background: -o-linear-gradient(center top , rgb(51, 51, 51) 5%, rgb(0, 0, 0) 100%) repeat scroll 0% 0% transparent;
+  background: -webkit-gradient(center top , rgb(51, 51, 51) 5%, rgb(0, 0, 0) 100%) repeat scroll 0% 0% transparent;
+  background: -webkit-linear-gradient(center top , rgb(51, 51, 51) 5%, rgb(0, 0, 0) 100%) repeat scroll 0% 0% transparent;
+  background: linear-gradient(center top , rgb(51, 51, 51) 5%, rgb(0, 0, 0) 100%) repeat scroll 0% 0% transparent;
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(51, 51, 51)', endColorstr='#e3e3e3');
+  border: 1px solid #dbdbdb;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  -moz-box-shadow: inset 0 1px 0 0 rgb(51, 51, 51);
+  -webkit-box-shadow: inset 0 1px 0 0 rgb(51, 51, 51);
+  -o-box-shadow: inset 0 1px 0 0 rgb(51, 51, 51);
+  box-shadow: inset 0 1px 0 0 rgb(51, 51, 51);
+  color: #999999;
+  text-shadow: 0 1px 0 rgb(51, 51, 51);
+  font-weight:normal;
+  padding: 6px 1em 6px 1em;
+  text-decoration:none;
+  text-transform: capitalize;
+}
+
+.block-user-login ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  background: none;
+  float: right;
+}
+
+.block-user-login li {
+  display: inline;
+  float: left;
+  width: 80px;
+}
+
+#simtitle {
+    color: #666;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    margin: 15px 0px;
+    background: url('../images/plus-grey.gif') no-repeat scroll left center transparent;
+    padding-left: 30px;
+}
+
+.grey-separator {
+    width: 100%;
+    border-bottom: 5px solid #DEE2E5;
+    margin-bottom: 10px;
+}
+

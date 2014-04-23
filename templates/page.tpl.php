@@ -71,6 +71,9 @@
     <header id="header" role="banner">
       
       <?php /*Login Module*/?>
+      <?php if ($page['page_top_right']): ?>
+        <div class="block-user-login"><?php print render($page['page_top_right']); ?></div>
+        <?php endif; ?>
       <?php if ($logo): ?><div id="logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>"/></a></div>
       <?php endif; ?>
       <h1 id="site-title">
@@ -121,6 +124,7 @@
     <?php endif; ?>
 
     <?php print render($page['front_welcome']); ?>
+    <?php print render(module_load_include('module', 'simulationlist','simulationlist.module')); ?>
 
     <?php endif; ?>
 
